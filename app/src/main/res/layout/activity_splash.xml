@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/background_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".com.eagle.ahpassignment.SplashActivity">
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+
+        android:layout_centerInParent="true"
+
+
+
+
+
+
+        >
+        <TextView
+            android:id="@+id/free_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ayurveda_house_private"
+            android:textSize="30sp"
+            android:gravity="top"
+
+
+
+            />
+        <TextView
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Assingment For Internship"/>
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
